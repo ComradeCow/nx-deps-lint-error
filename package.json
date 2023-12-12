@@ -2,14 +2,25 @@
   "name": "nx-deps-lint-error",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "private": true,
-  "dependencies": {},
+  "type": "module",
   "devDependencies": {
+    "@nx/eslint-plugin": "^17.2.1",
     "@nx/js": "17.2.1",
-    "nx": "17.2.1"
+    "eslint": "^8.55.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "nx": "17.2.1",
+    "typescript": "^5.3.3"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "pad-left": "^2.1.0",
+    "pad-right": "^0.2.2"
+  }
 }

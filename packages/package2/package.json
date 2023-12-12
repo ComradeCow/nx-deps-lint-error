@@ -1,0 +1,9 @@
+{
+  "name": "package2",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "pad-right": "^0.2.2"
+  }
+}
